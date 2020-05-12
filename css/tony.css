@@ -1,0 +1,64 @@
+/*
+  some exercises using the grid layout.
+*/
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(10, 100px);
+  grid-auto-rows: 25px;
+  border: 1px solid black;
+}
+
+.grid-spacer {
+  grid-column: 1 / 10;
+}
+.grid-one-column {
+  grid-column: auto / span 1;
+  border: 1px solid blue;
+}
+.grid-two-column {
+  grid-column: auto / span 2;
+  border: 1px solid red;
+}
+.grid-three-column {
+  grid-column: auto / span 3;
+  border: 1px solid green;
+}
+.grid-four-column {
+  grid-column: auto / span 4;
+  border: 1px solid green;
+}
+.grid-five-column {
+  grid-column: auto / span 5;
+  border: 1px solid green;
+}
+.grid-six-column {
+  grid-column: auto / span 6;
+  border: 1px solid green;
+}
+.grid-seven-column {
+  grid-column: auto / span 7;
+  border: 1px solid green;
+}
+.grid-eight-column {
+  grid-column: auto / span 8;
+  border: 1px solid green;
+}
+.grid-nine-column {
+  grid-column: auto / span 9;
+  border: 1px solid green;
+}
+.grid-ten-column {
+  grid-column: auto / span 10;
+  border: 1px solid green;
+}
+/* spanning rows */
+.grid-one-row {
+  grid-row: auto / span 1;
+}
+.grid-two-row {
+  grid-row: auto / span 2;
+}
+.grid-three-row {
+  grid-row: auto / span 3;
+}
