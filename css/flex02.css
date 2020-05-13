@@ -4,8 +4,10 @@
   (required for the grid layout.)
 */
 /*
+font-family: 'Open Sans', sans-serif;
+Weights 300 and 400
 font-family: 'Raleway', sans-serif;
-sizes are 300 and 600
+Weights 400 and 700
 */
 
 /*
@@ -13,13 +15,13 @@ sizes are 300 and 600
 */
 body {
   font-family: 'Raleway', sans-serif;
-  font-size: 11px;
-  font-weight: 300;
+  font-size: 14px;
+  font-weight: 400;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-size: 14px;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 ul {
@@ -31,18 +33,105 @@ ul {
 li {
   display: inline-block;
   text-decoration: none;
+  padding: 5px 10px;
 }
 
+/*
 div {
   border: 1px solid red;
 }
+*/
+.div-container {
+  display: flex;
+  align-items: center;
+  width: 900px;
+  margin: auto;
+}
 /* top of page */
+
+/* Container at the top of the page
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
 .first-container {
   display: flex;
-  justify-content: flex-end;
-  width: 100%;
+  justify-content: space-between;
+  width: 900px;
   margin: auto;
-  border: 1px solid black;
 }
-.first-container-item {
+.first-container-logo {
+  flex: 0 0 300px;
+  text-align: left;
 }
+.first-container-middle {
+  flex: 0 0 300px;
+  text-align: center;
+}
+.first-container-links {
+  flex: 1 0 150px;
+  text-align: right;
+}
+
+/* Misc
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+hr {
+  border-width: 0;
+  border-top: 1px solid #E1E1E1;
+  /* border: 1px solid black; */
+  width: 900px;
+}
+
+
+/* Header container
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.header-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 900px;
+  min-height: 200px;
+  margin: auto;
+  background: lightgrey;
+}
+.header-container-item {
+  flex: 0 0 200px;
+  border: 1px solid red;
+}
+/* Nav container
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.nav-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 900px;
+  min-height: 50px;
+  margin: auto;
+  background: lightgrey;
+}
+.nav-container-item {
+  flex: 0 0 600px;
+  text-align: right;
+}
+
+/* Misc
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+
+
+/* Misc
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+
+
+/* Misc
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+
+
+/* Misc
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+
+
+
+/* Misc
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
