@@ -1,0 +1,52 @@
+ul {
+  list-style-type: none;
+  transform: translateY(50%);
+}
+
+li {
+  /* align-items: center; */
+  display: inline;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+/* UTLILITIES 
+--------------------------------------------------*/
+
+.sb {
+  border: 1px dashed #878CAA;
+}
+
+.nav {
+  padding-right: 10px;
+}
+
+.leader {
+  background: #D0D5EA;
+  height: 15px;
+}
+
+.header {
+  /* background: #8390B3; */
+  /* height: 300px; */
+  background: url("../images/header-02.png");
+  border-bottom: 1px solid lightgray;
+}
+
+.header div {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.left-sidebar {
+  min-height: 500px;
+}
+
+.main-content {
+  min-height: 500px;
+}
